@@ -1,0 +1,63 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: black;
+
+    cursor: grab;
+    
+}
+h1 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    text-align: center;
+    pointer-events: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+    text-decoration-skip-ink: auto;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    animation: wave 2s infinite;
+}
+h2 {
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-align: center;
+    pointer-events: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+    text-decoration-skip-ink: auto;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    animation: wave 2s infinite;
+}
+span{
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background: #333;
+    pointer-events: none;
+    border-radius: 50%;
+    background: url("ribbons.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
